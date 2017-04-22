@@ -54,7 +54,7 @@ def executeCommand(message):
     nickname = message['nickname']
     if messageContent.lower().startswith('!giphy'):
         try:
-            query = messageContent[7:] # Remove the first 7 characters from the message ("!giphy")
+            query = messageContent[7:] # Remove the first 7 characters from the message, including the space ("!giphy ")
             query = re.sub(' ', '+', query)
             print query
             url = "http://api.giphy.com/v1/gifs/search?q="+query+"&api_key="+api_key
