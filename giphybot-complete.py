@@ -10,6 +10,8 @@ import json
 import requests
 import re
 import random
+from requests.packages.urllib3.exceptions import InsecureRequestWarning # Stops error spam
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # Settings:
 idToken = "default"                         # Chat ID token of the character you want to use
