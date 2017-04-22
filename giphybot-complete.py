@@ -10,7 +10,7 @@ import json
 import requests
 import re
 import random
-from requests.packages.urllib3.exceptions import InsecureRequestWarning # Stops error spam
+from requests.packages.urllib3.exceptions import InsecureRequestWarning # Stops error spam -PuffyCheeses
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # Settings:
