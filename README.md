@@ -1,5 +1,5 @@
 # initium-giphybot
-Simple, efficient chatbot for Initium written in Python using Requests.
+Simple, efficient chatbot for Initium written in Python using Requests. Now defunct, new chat uses WebSockets.
 
 ## Dependancies
 * Python 2.7
